@@ -1,0 +1,162 @@
+@charset "utf-8";
+#page3 {
+
+}
+#page5 {
+	height: 720px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#news-btntop {
+	background-image: url(../images/btntop.png);
+	background-position: bottom;
+	float: right;
+}
+#news-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	background-position: bottom;
+	float: left;
+}
+
+
+
+#poll {
+	position: relative;
+	height: 300px;
+	width: 700px;
+}
+#assay {
+	height: 420px;
+	width: 325px;
+	padding-left: 25px;
+	position: relative;
+	float: left;
+}
+#news-holder {
+	float: right;
+	width: 325px;
+	position: relative;
+	height: 420px;
+	padding-left: 25px;
+}
+
+
+#assay-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	background-position: bottom;
+	float: left;
+}
+#assay-btntop {
+	background-image: url(../images/btntop.png);
+	background-position: bottom;
+	float: right;
+}
+#comic {
+	height: 420px;
+	width: 400px;
+	padding-left: 25px;
+	position: relative;
+	float: right;
+}
+#othersite-btntop {
+	background-image: url(../images/btntop.png);
+	background-position: bottom;
+	float: right;
+}
+#othersite-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	background-position: bottom;
+	float: left;
+}
+
+#comic-btntop {
+	background-image: url(../images/btntop.png);
+	background-position: bottom;
+	float: right;
+}
+#comic-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	background-position: bottom;
+	float: left;
+}
+#othersite {
+	float: left;
+	height: 420px;
+	width: 250px;
+	padding-left: 25px;
+	position: relative;
+}
+img {
+		border: 1px solid #94958D;
+}
+
+#othersite-rail {
+	width: 250px;
+}
+#othersite-rail a {
+	margin-bottom: 10px;
+}
+#intertain {
+	position: relative;
+	height: 300px;
+	width: 700px;
+}
+
+
+/**/
+
+#page7 {
+	height: 720px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	direction: rtl;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+#page7 h4{
+	text-align: center; 
+}
+#whole-text {
+	position: relative;
+	height: 600px;
+	width: 675px;
+	padding-left: 25px;
+}
+.text-content {
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	height: 600px;
+	width: 675px;
+	padding-left:25px;
+}
+.text-content img {
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#video {
+	height: 480px;
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 70px;
+	position: relative;	
+}#poll-content {
+	direction: rtl;
+	height: 200px;
+	width: 700px;
+
+}
+#poll-contxt {
+	width: 410px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 200px;
+	margin-right: 10px;
+	padding-left: 10px;
+}

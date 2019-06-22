@@ -1,0 +1,189 @@
+@charset "utf-8";
+#c {
+	text-decoration: underline;
+}
+#hold-text {
+	min-height: 720px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	direction: rtl;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 15px;
+	line-height: 1.7em;
+	list-style-position: inside;
+}
+#whole-text {
+	position: relative;
+	height: 600px;
+	width: 700px;
+}
+
+
+#hold-text h1 {
+	font-size: 20px;
+	text-align: center;
+	color: #312F32;
+}
+
+#hold-text h2 {
+	font-size: 16px;
+}
+#hold-text h3 {
+	font-size: 15px;
+}
+
+#hold-text p {
+	color: #515151;
+	text-align: justify;
+}
+#text-btntop {
+	background-image: url(../images/btntop.png);
+	float: right;
+}
+#text-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	float: left;
+}
+.text-content {
+	overflow: hidden;
+	position: relative;
+	height: 600px;
+	width: 700px;
+}
+#text-rail {
+	width: 700px;
+}
+#text-btntop {
+	background-image: url(../images/btntop.png);
+	float: right;
+}
+#text-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	float: left;
+}
+#testroom {
+	height: 720px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#frmcontact {
+	position: relative;
+	height: 270px;
+	width: 675px;
+	padding-left: 25px;
+}
+#primerycontact {
+	position: relative;
+	height: 450px;
+	width: 675px;
+	padding-left: 25px;
+	direction: rtl;
+}
+#map-content {
+	position: relative;
+	height: 305px;
+	width: 205px;
+	float: right;
+	padding-left: 10px;
+	padding-top: 65px;
+}
+.textbox {
+	border: 1px solid #CBCBCB;
+	height: 15px;
+	width: 260px;
+	padding: 5px;
+}
+
+tb {
+	direction:rtl;
+}
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #515151;
+	direction: rtl;
+	float: right;
+}
+textarea {
+	height: 115px;
+	width: 330px;
+	direction: rtl;
+	padding: 5px;
+}
+#map-content h1 {
+	color: #3F3741;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	text-align: right;
+	line-height: 1.7em;
+}
+#map-content h2 {
+	color: #515151;
+	font-weight: 100;
+	font-size: 14px;
+	text-align: left;
+}
+#map-content h2 a {
+	color: #110714;
+}
+
+
+
+#map_addresses {
+	float: left;
+	height: 370px;
+	width: 450px;
+	position: relative;
+	border: 5px solid #999;
+}
+
+::-moz-selection {
+	background-color: #FFC22C;
+	text-shadow: 0 1px 1px #fff;
+}
+
+::selection {
+	background-color: #FFC22C;
+	text-shadow: 0 1px 1px #fff;
+}
+#mapbox{
+	float: left;
+	height: 80px;
+	width: 150px;
+	position: relative;
+	padding-right: 10px;
+}
+
+#mapbox h1{
+	direction:rtl
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	border-top: 1px solid #ddd;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.075), rgba(0,0,0,0) 20%);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.075), rgba(0,0,0,0) 20%);
+	background-image: linear-gradient(top, rgba(0,0,0,0.075), rgba(0,0,0,0) 20%);
+	direction: rtl;
+	text-align: right;
+	font-weight: bolder;
+}
+#mapbox h2{
+	direction: rtl;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #4A76E6;
+	font-size: 14px;
+	font-weight: 300;
+	direction: rtl;
+}
+#mappic {
+	float: right;
+	height: 80px;
+	width: 100px;
+	position: relative;
+}

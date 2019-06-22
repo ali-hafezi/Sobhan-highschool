@@ -1,0 +1,260 @@
+@charset "utf-8";
+h1 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #110714;
+}
+h2{
+	font-size: 16px;
+	}
+h3{
+		font-size: 15px;}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	color: #312F32;
+}
+
+h5{	
+font-size: 15px;
+	text-align: left;}
+h6 {	
+position: absolute;
+	font-size: 13px;
+	font-weight: 100;
+	color: #ABABAB;
+	text-align: left;
+	left: 0px;
+	bottom: 0px;
+}
+ p {
+	text-align: justify;
+	font-size: 14px;
+	color: #515151;
+}
+
+#page1 {
+position: relative;
+height: 720px;
+width: 700px;
+overflow: hidden;
+}
+#slider-holder {
+	height: 300px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#slider {
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+	width: 600px;
+	background-color: transparent;
+	z-index: 3;
+}
+#slider-rail {
+	position: relative;
+	height: 300px;
+	min-width: 1800px;
+	z-index: 1;
+}
+.pic-box {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	float: left;
+	height: 300px;
+	width: 600px;
+	position: relative;
+	z-index: 2;
+}
+#pic1 {
+	background-image: url(../images/mark.jpg);
+}
+#pic2 {
+	background-image: url(../images/smth.jpg);
+}
+#pic3 {
+	background-image: url(../images/eyd.jpg);
+}
+#btnleft {
+	position: absolute;
+	height: 80px;
+	width: 45px;
+	background-image: url(../images/btnleft.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	z-index: 4;
+	top: 100px;
+	display: none;
+	cursor: pointer;
+}
+#btnright {
+	background-image: url(../images/btnright.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	position: absolute;
+	height: 80px;
+	width: 45px;
+	z-index: 4;
+	top: 100px;
+	right: 0px;
+	display: none;
+	cursor: pointer;
+}
+#text-strip {
+	position: absolute;
+	height: 33px;
+	width: 530px;
+	bottom: 20px;
+	z-index: 4;
+	display: none;
+	background-color: transparent;
+	background-image: url(../images/text-strip.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: right;
+	padding-top: 7px;
+	padding-right: 40px;
+	padding-left: 30px;
+}
+#text-strip a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-align: right;
+	margin: 0px;
+	cursor: pointer;
+	display: inline-block;
+}
+#Various {
+	position: relative;
+	height: 420px;
+	width: 250px;
+	float: left;
+	text-align: right;
+	padding-left: 25px;
+}
+#latestnews {
+	position: relative;
+	height: 420px;
+	width: 400px;
+	padding-left: 25px;
+	float: right;
+}
+.header{
+	height: 35px;
+	padding-top: 15px;
+	position: relative;
+	text-align: right;
+}
+.content{
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+	z-index: 1;
+}
+.rail{
+	position: absolute;
+	min-height: 300px;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+}
+#various-rail {
+	width: 250px;
+	z-index: 2;
+}
+#various-rail a img {
+	margin-bottom: 10px;
+	border: 1px solid #94958D;
+	z-index: 3;
+}
+#latestnews-rail {
+	width: 400px;
+}
+.minibox{
+	position: relative;
+	height: 90px;
+	width: 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	z-index: 3;
+}
+
+.context{
+	position: relative;
+	height: 90px;
+	width: 270px;
+	float: left;
+	text-align: right;
+	direction: rtl;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 4;
+}
+.picside
+{
+	position: relative;
+	height: 90px;
+	width: 120px;
+	float: right;
+	z-index: 4;
+}
+.minifooter{
+	position: relative;
+	height: 55px;
+	padding-top: 15px;
+}
+
+.picside img{
+	border: 1px solid #949290;	
+}
+img:hover{
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
+ a {
+	cursor: pointer;
+}
+.btnholder {
+	position: relative;
+	height: 31px;
+	width: 63px;
+	float: right;
+}
+.btn{
+	background-color: transparent;
+	background-position: bottom;
+	position: relative;
+	height: 31px;
+	width: 31px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+#latestnews-btntop {
+background-image: url(../images/btntop.png);
+float: right;
+}
+#latestnews-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	float: left;
+}
+#various-btntop {
+	background-image: url(../images/btntop.png);
+	float: right;
+}
+#various-btnbottom {
+	background-image: url(../images/btnbootom.png);
+	float: left;
+}.fixer {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}

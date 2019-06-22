@@ -1,0 +1,115 @@
+@charset "utf-8";
+#frmcontact {
+	position: relative;
+	height: 270px;
+	width: 675px;
+	padding-left: 25px;
+}
+#primerycontact {
+	position: relative;
+	height: 440px;
+	width: 675px;
+	padding-left: 25px;
+	direction: rtl;
+}
+#map-content {
+	position: relative;
+	height: 295px;
+	width: 205px;
+	float: right;
+	padding-left: 10px;
+	padding-top: 65px;
+}
+.textbox {
+	border: 1px solid #CBCBCB;
+	height: 15px;
+	width: 260px;
+	padding: 5px;
+}
+
+tb {
+	direction:rtl;
+}
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #515151;
+	direction: rtl;
+	float: right;
+}
+textarea {
+	height: 115px;
+	width: 330px;
+	direction: rtl;
+	padding: 5px;
+}
+#map-content h1 {
+	color: #3F3741;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	text-align: right;
+	line-height: 1.7em;
+}
+#map-content h2 {
+	color: #515151;
+	font-weight: 100;
+	font-size: 14px;
+	text-align: left;
+}
+#map-content h2 a {
+	color: #110714;
+}
+
+
+
+#map_addresses {
+	float: left;
+	height: 360px;
+	width: 450px;
+	position: relative;
+	border: 5px solid #999;
+}
+
+#mapbox{
+	float: left;
+	height: 80px;
+	width: 150px;
+	position: relative;
+	padding-right: 10px;
+}
+
+#mapbox h1{
+	direction:rtl
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	border-top: 1px solid #ddd;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.075), rgba(0,0,0,0) 20%);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.075), rgba(0,0,0,0) 20%);
+	background-image: linear-gradient(top, rgba(0,0,0,0.075), rgba(0,0,0,0) 20%);
+	direction: rtl;
+	text-align: right;
+	font-weight: bolder;
+}
+#mapbox h2{
+	direction: rtl;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #4A76E6;
+	font-size: 14px;
+	font-weight: 300;
+	direction: rtl;
+}
+#mappic {
+	float: right;
+	height: 80px;
+	width: 100px;
+	position: relative;
+}
+#mapbox-holder {
+	position: relative;
+	width: 270px;
+	overflow: hidden;
+	height: 100px;
+}
